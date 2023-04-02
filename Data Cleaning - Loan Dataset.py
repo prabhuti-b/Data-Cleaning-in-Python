@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# #this is a dataset about loan variables which is to be prepared for creating a model over it.
-# #the project includes doing the following as a part of the data cleaning process
-# #discard the junk variables
-# #sanitize columns by removing special characters
-# #convert object to numeric data type
-# #create dummy variables for categorical variables
-# #handle NaN values
+# this is a dataset about loan variables which is to be prepared for creating a model over it
+# the project includes doing the following as a part of the data cleaning process
+# discard the non related variables
+# sanitize columns by removing special characters
+# convert object to numeric data type
+# create dummy variables for categorical variables
+# handle NaN values
 
 # In[1]:
 
@@ -19,7 +19,7 @@ import numpy as np
 # In[2]:
 
 
-file = r'C:/Users/KASHYAP/Desktop/loan_data_train.csv'
+file = r'C:/Users/KASH/Desktop/loan_data_train.csv'
 
 
 # In[3]:
